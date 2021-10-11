@@ -86,6 +86,7 @@ DATABASES = {
         'NAME': 'pictures',
         'USER': 'moringa',
         'PASSWORD': 'Access',
+        'DISABLE_SERVER_SIDE_CURSORS': True,
     }
 }
 
@@ -138,8 +139,8 @@ STATICFILES_DIRS = [
     os.path.join(BASE_DIR, "static"),
 ]
 
-cloudinary.config( 
-  cloud_name = "dcfbiz9fv", 
-  api_key = "481773377433656", 
-  api_secret = "VUSWe6tj1twJ7LvNXlQMWQhf_vo" 
+cloudinary.config(
+    cloud_name="dcfbiz9fv",
+    api_key="481773377433656",
+    api_secret="VUSWe6tj1twJ7LvNXlQMWQhf_vo"
 )
