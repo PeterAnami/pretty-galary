@@ -12,6 +12,9 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 
 from pathlib import Path
 import os
+import cloudinary
+import cloudinary.uploader
+import cloudinary.api
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 # BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -39,6 +42,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'mypictures',
     'bootstrap3',
+    'cloudinary',
 
 ]
 
@@ -133,3 +137,9 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, "static"),
 ]
+
+cloudinary.config( 
+  cloud_name = "dcfbiz9fv", 
+  api_key = "481773377433656", 
+  api_secret = "VUSWe6tj1twJ7LvNXlQMWQhf_vo" 
+)
