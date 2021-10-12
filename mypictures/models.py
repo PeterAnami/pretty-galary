@@ -67,7 +67,7 @@ class Photo(models.Model):
   description = models.TextField()
   owner = models.ForeignKey(Owner,on_delete=models.CASCADE)
   posted_at = models.DateTimeField(auto_now_add=True)
-  # image = CloudinaryField('image')
+  image = CloudinaryField('image')
   location = models.ForeignKey(Location,on_delete=models.CASCADE)
   category = models.ForeignKey(Category,on_delete=models.CASCADE)
 
