@@ -41,7 +41,7 @@ h2,h1 {
   font-weight: 900;
 }
 .footer {
-  color: #449D44 !important;
+  color: #79a079 !important;
 }
 .footer a {
   color: #449D44 !important;
@@ -57,13 +57,13 @@ img {
 }
 .banner {
   height: 60vh;
-  background-image: url('https://res.cloudinary.com/dbos9xidr/image/upload/v1625440961/windows2_avbnls.jpg');
+  /* background-image: url('https://res.cloudinary.com/dbos9xidr/image/upload/v1625440961/windows2_avbnls.jpg'); */
   background-size: cover;
   background-repeat: no-repeat;
 }
 .name {
   padding-top: 8%;
-  color: #058F03;
+  color: #83a882;
   text-align: center;
 }
 .slide {
