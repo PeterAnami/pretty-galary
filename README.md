@@ -8,10 +8,10 @@ This is a site where you can check on my galary pictures.
 ### Landing page
 
 *****
-### User Blogs
+### User Gallary
 
 *****
-### Delete Own Blog
+### Delete Own Gallary
 
 *****
 ### Comment and Delete
