@@ -3,6 +3,8 @@ from django.http.response import Http404, HttpResponse
 from django.core.exceptions import ObjectDoesNotExist
 from django.http import HttpResponse,Http404
 from django.shortcuts import render,get_object_or_404,redirect
+# from mypictures.models import Location, Photo
+import datetime as dt
 
 from mypictures.models import Location, Photo
 
